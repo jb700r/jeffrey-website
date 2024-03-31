@@ -1,0 +1,63 @@
+.rubik-doodle {
+  font-family: "Rubik Doodle Shadow", sans-serif;
+}
+
+.dotgothic16 {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body {
+  background-image: url("../img/bg-star.png");
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 3px;
+  margin-right: 3px;
+  font-size: large;
+}
+
+nav > a:hover {
+  text-transform: uppercase;
+}
+.background-text {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+footer {
+  margin: auto;
+}
+.gitHubLinks{
+  text-decoration: none;
+  color: #fff;
+  font-size: large;
+}
+
+.gitHubLinks:hover{
+    text-decoration: underline;
+}
+main{
+    width: 800px;
+}
